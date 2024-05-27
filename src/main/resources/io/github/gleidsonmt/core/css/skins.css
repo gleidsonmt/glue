@@ -1,0 +1,25 @@
+
+
+.check-box {
+    -fx-skin: "io.github.gleidsonmt.light.core.components.skins.MaterialSkinCheckBox";
+}
+
+.button {
+    -fx-skin: "io.github.gleidsonmt.light.core.components.skins.MaterialSkinButton";
+}
+
+.text-field {
+    -fx-skin: "io.github.gleidsonmt.light.core.components.skins.MaterialSkinTextField";
+}
+
+
+.button .ripple {
+    -fx-fill: white;
+    -fx-opacity: 0.5;
+}
+
+.button:cancel .ripple {
+    -fx-fill: derive(-fx-accent, 50%);
+    -fx-opacity: 0.5;
+}
+

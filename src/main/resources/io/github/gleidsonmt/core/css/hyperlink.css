@@ -1,0 +1,19 @@
+
+.hyperlink {
+    -fx-border-width: 0;
+}
+
+.hyperlink:visited {
+    -fx-border-width: 0;
+    -fx-underline: false;
+}
+
+.hyperlink:visited .text {
+    -fx-fill: -text-color;
+}
+
+.hyperlink .text {
+    -fx-fill: -fx-accent;
+    -fx-font-weight: bold;
+    -fx-font-family: Poppins Regular;
+}
