@@ -1,0 +1,45 @@
+
+/*********************************************
+
+    @Alerts
+
+*********************************************/
+
+
+.alert-container,
+.alert-container > .alert-content {
+    -fx-background-radius: 10px;
+    -fx-background-color: -background-color;
+    -fx-border-radius: 10px;
+}
+
+.alert-container > .alert-content {
+    -fx-border-color: -medium-gray;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;
+}
+
+.alert-container > .alert-background {
+    -fx-background-radius: 40px;
+    -fx-background-insets: 0px 10px 0px 10px;
+    -fx-background-color: -fx-accent;
+}
+
+
+.alert-container > .alert-background-danger {
+    -fx-accent: -danger;
+}
+
+.alert-container > .alert-background-warning {
+    -fx-accent: -warning;
+}
+
+.alert-container > .alert-background-success {
+    -fx-accent: -success;
+}
+
+.alert-container > .alert-background-info {
+    -fx-accent: -info;
+}
+
+

@@ -1,0 +1,18 @@
+
+
+.inside-button:focused,
+.inside-button:cancel:focused,
+.inside-button:cancel,
+.inside-button {
+    -fx-background-color: -background-color;
+    -fx-border-color: -medium-gray;
+    -fx-border-radius: 10px;
+}
+
+.inside-button:focused,
+.inside-button:cancel:hover,
+.inside-button:cancel:hover .icon-container .icon
+{
+    -fx-border-color: -fx-accent;
+    -fx-fill:-fx-accent;
+}

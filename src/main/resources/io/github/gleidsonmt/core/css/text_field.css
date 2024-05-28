@@ -1,0 +1,38 @@
+
+
+.text-field
+{
+    -fx-border-color: -medium-gray;
+    -fx-background-radius: 2px;
+    -fx-border-radius: 2px;
+    -fx-border-width: 2px;
+    -fx-pref-height: 40px;
+    -fx-min-height: 40px;
+    -fx-focus-text-field: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-effect: none;
+    -fx-font-family: Roboto;
+    -fx-font-size: 12px;
+}
+
+.text-field:focused {
+    -fx-focused: -fx-accent;
+}
+
+.inside-text-field:focused,
+.inside-text-field:hover,
+.inside-text-field:focused:hover,
+.inside-text-field {
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+.text-box:error {
+    -fx-border-color: -red;
+    -fx-border-width: 2px;
+}
+
+.label-prompt {
+    -fx-background-color: white;
+    -fx-padding: 0px 2px 0px 2px;
+}

@@ -1,0 +1,58 @@
+
+
+.text-box:focus-within:error,
+.text-box:error {
+    -fx-border-color: -danger;
+    -fx-border-radius: 2px;
+}
+
+.text-box:focus-within:success {
+    -fx-border-color: -success;
+    -fx-border-radius: 2px;
+}
+
+.text-box:focus-within:error .label-prompt .text {
+    -fx-fill: -danger;
+}
+
+.text-box:focus-within:success .label-prompt .text {
+    -fx-fill: -success;
+}
+
+.text-box:error .icon-view .icon,
+.text-box:focus-within:error .icon-view .icon {
+    -fx-fill: -danger;
+}
+
+.text-box:error .helper-label,
+.text-box:focus-within:error .helper-label {
+    visibility: true;
+}
+
+.text-box:focus-within:success .helper-label {
+    visibility: false;
+}
+
+.text-box .icon-view .helper-label .text,
+.text-box .helper-label .text {
+    -fx-fill: -danger;
+}
+
+
+.text-box .helper-label,
+.text-box:focus-within .helper-label {
+    visibility: false;
+}
+
+
+.text-box .label-prompt {
+    -fx-background-color: white;
+    -fx-padding: 0px 2px 0px 2px;
+}
+
+.text-box .helper-label {
+}
+
+.text-box:valid {
+
+}

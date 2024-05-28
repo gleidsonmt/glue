@@ -1,0 +1,53 @@
+
+
+.toggle-switch {
+    -fx-cursor: hand;
+}
+
+.dialog-box {
+    -fx-background-color: white;
+    -fx-border-color: -light-gray-2;
+}
+
+
+/*******************************************************************************
+*                                                                              *
+    @Slider
+*                                                                              *
+*******************************************************************************/
+
+
+.slider .thumb {
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 1.0em; /* makes sure this remains circular */
+    -fx-padding: 0.583333em;  /* 7 */
+    -fx-effect: dropshadow(two-pass-box , rgba(0, 0, 0, 0.1), 5, 0.0 , 0, 2);
+    -fx-background-color: -fx-accent;
+}
+.slider:focused .thumb {
+    -fx-background-radius: 1.0em; /* makes sure this remains circular */
+}
+.slider .track {
+    -fx-background-color: -light-gray-2 ;
+    -fx-background-insets: 0 0 -1 0, 0, 1;
+    -fx-background-radius: 0.25em, 0.25em, 0.166667em; /* 3 3 2 */
+    -fx-padding: 0.25em; /* 3 */
+}
+.slider:vertical .track {
+    -fx-background-color: -light-gray-2;
+}
+
+.slider:horizontal .track {
+    -fx-background-color: -light-gray-2;
+}
+
+.slider .axis {
+    -fx-tick-label-fill: red;
+    -fx-tick-length: 5px;
+    -fx-minor-tick-length: 3px;
+    -fx-border-color: null;
+}
+
+.slider:focused .thumb {
+    -fx-background-radius: 1px; /* makes sure this remains circular */
+}
